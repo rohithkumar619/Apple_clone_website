@@ -1,0 +1,28 @@
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.slider div {
+  width: 1220px;
+  height: 580px;
+  object-fit: cover;
+  background-image: url("images//messis.jpg");
+  animation: slider 10s step-end 1s infinite forwards;
+}
+@keyframes slider {
+  0% {
+    background: url("images//masters.jpg");
+  }
+  25% {
+    background: url("images/thenewlook.jpg");
+  }
+  50% {
+    background: url("images/tedlasso.jpg");
+  }
+  75% {
+    background: url("images/messis.jpg");
+  }
+}

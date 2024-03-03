@@ -1,0 +1,101 @@
+.gadgets2 {
+  margin-top: 10px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.gadgets2 > div:nth-child(1) {
+  background-color: white;
+  width: 50%;
+  height: 550px;
+  display: flex;
+  align-items: end;
+}
+.gadgets2 > div:nth-child(1) img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+.features3 {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 120px;
+  left: 280px;
+}
+.features3 > span:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+.features3 > span:nth-child(1) {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: -13px;
+}
+.features3 > span:nth-child(2) {
+  font-size: 25px;
+}
+.features3 > span:nth-child(3) {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  color: rgb(8, 153, 211);
+  font-weight: 600;
+}
+.airpod {
+  background-color: black;
+  width: 50%;
+  height: 550px;
+  display: flex;
+  align-items: end;
+  position: relative;
+  justify-content: center;
+}
+.airpod img {
+  width: 350px;
+  height: 390px;
+  object-fit: cover;
+}
+.features4 {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  right: 140px;
+}
+.features4 > span:nth-child(1) img {
+  width: 26px;
+  height: 31px;
+  margin-right: 5px;
+}
+.features4 > span:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+.features4 > span:nth-child(1) {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.features4 > span:nth-child(2) {
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  margin-top: -5px;
+  font-weight: 600;
+}
+.features4 > span:nth-child(3) {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  color: rgb(4, 137, 189);
+}

@@ -1,0 +1,33 @@
+.bottom-f {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: rgb(237, 237, 237);
+}
+.btm1 {
+  width: 80%;
+  height: 20px;
+  color: black;
+  margin-bottom: 20px;
+}
+.btm1 span {
+  font-size: 13px;
+}
+.btm1 > span span {
+  text-decoration: underline;
+  color: rgb(23, 157, 211);
+  cursor: pointer;
+}
+.btm2 {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  border-top: 1px solid rgb(176, 173, 173);
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.btm2 span {
+  font-size: 13.5px;
+}
